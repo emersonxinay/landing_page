@@ -19,3 +19,6 @@ pip install flask
 
 # Link demo en web 
 <a href="https://landing-page-khaki-two.vercel.app/equipo"> https://landing-page-khaki-two.vercel.app/equipo </a>
+
+# link del proyecto github
+<a href="https://github.com/emersonxinay/landing_page"> https://github.com/emersonxinay/landing_page </a>
