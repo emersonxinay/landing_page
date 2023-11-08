@@ -17,3 +17,5 @@ para instalar paquetes de python, ejemplo: Flask
 pip install flask
 ```
 
+# Link demo en web 
+<a href="https://landing-page-khaki-two.vercel.app/equipo"> https://landing-page-khaki-two.vercel.app/equipo </a>
