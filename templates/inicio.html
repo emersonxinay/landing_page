@@ -16,108 +16,14 @@
 {% block principal %}
 
 
-<!-- Services-->
-<section class="page-section" id="services">
-    <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">Servicios que brindaremos</h2>
-            <h3 class="section-subheading text-muted">Servicios que brindaremos muy pronto</h3>
-        </div>
-        <div class="row text-center">
-            <div class="col-md-4">
-                <span class="fa-stack fa-4x ">
-                    <i class="fas fa-circle fa-stack-2x text-danger"></i>
-                    <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                   
-                </span>
-                <h4 class="my-3">Paginas Web Landing Page</h4>
-                <p class="text-muted">Paginas web básicas fundamentales para negocios pequeños y empresas consolidadas </p>
-            </div>
-            <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x text-danger "></i>
-                    <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="my-3">Paginas web con Ecomerce</h4>
-                <p class="text-muted">Paginas web con opción de vender productos via online </p>
-            </div>
-            <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x text-danger"></i>
-                    <i class="fas fa-chart-line fa-stack-1x fa-inverse"></i>
-                    
-                </span>
-                <h4 class="my-3">Marketing Digital</h4>
-                <p class="text-muted">Posicionar negocios a travez de manejos de redes sociales y SEO de web</p>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- servicios-->
 
-<!-- About-->
-<section class="page-section" id="about">
-    <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">Tecnologias  y lenguajes de programación que aprendimos</h2>
-            <h3 class="section-subheading text-muted">Somos la generación 2022 - 2023 de código futuro</h3>
-        </div>
-        <ul class="timeline">
-            <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{url_for('static', filename='img/html.png')}}" alt="..." /></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        
-                        <h4 class="subheading">Visual Studio Code, HTML, CSS, BOOTSTRAP </h4>
-                    </div>
-                    <div class="timeline-body"><p class="text-muted">Visual Studio Code: Versátil editor para desarrollar código. HTML: Lenguaje base web. CSS: Estiliza páginas. Bootstrap: Framework CSS, facilita y acelera desarrollo web adaptable con componentes preestablecidos y diseño responsivo, optimizando la experiencia del usuario en diferentes dispositivos.</p></div>
-                </div>
-            </li>
-            <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{url_for('static', filename='img/python.png')}}" alt="..." /></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        
-                        <h4 class="subheading">PYTHON - ESTRUCTURA DE DATOS, MODULARIZACIÓN </h4>
-                    </div>
-                    <div class="timeline-body"><p class="text-muted">Python: Lenguaje ágil y legible. Destaca en estructuras de datos eficientes. Modularización simplifica proyectos al dividir en módulos independientes, fomentando la reutilización y mantenimiento del código para escalabilidad.</p></div>
-                </div>
-            </li>
-            <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{url_for('static', filename='img/git-terminal.png')}}" alt="..." /></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                    
-                        <h4 class="subheading">TERMINAL, GIT, GITHUB  </h4>
-                    </div>
-                    <div class="timeline-body"><p class="text-muted">
-                        Terminal: Interfaz de línea de comandos. Git: Sistema de control de versiones. GitHub: Plataforma para alojar proyectos Git. Juntos, permiten gestionar código, versionarlo y colaborar en desarrollo de software mediante seguimiento, control y almacenamiento de proyectos.</p></div>
-                </div>
-            </li>
-            <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{url_for('static', filename='img/apis-flask.png')}}" alt="..." /></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        
-                        <h4 class="subheading">APIS CON POSTMAN, FLASK </h4>
-                    </div>
-                    <div class="timeline-body"><p class="text-muted">Postman: Herramienta para probar y desarrollar APIs. Flask: Framework de Python para construir aplicaciones web. Combinados, permiten crear y probar fácilmente APIs web, simplificando el desarrollo y pruebas de aplicaciones.</p></div>
-                </div>
-            </li>
-            <li class="timeline-inverted">
-                <div class="timeline-image">
-                    <h5>
-                        Nuestro Camino
-                        <br />
-                        de programación
-                        <br />
-                        Continuará!
-                    </h5>
-                </div>
-            </li>
-        </ul>
-    </div>
-</section>
+{% include "servicios.html" %}
+<!-- nuestro stack-->
 
+{% include "stack.html" %}
+<!-- trabajos -->
+{% include "trabajos.html" %}
 
 
 
