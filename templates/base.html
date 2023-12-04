@@ -20,12 +20,12 @@
     />
     <!-- conectando con css  -->
     <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/estilo.css')}}"
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/styles.css')}}"
     />
     <link
       rel="stylesheet"
-      href="{{ url_for('static', filename='css/styles.css')}}"
+      href="{{ url_for('static', filename='css/estilo.css')}}"
     />
   </head>
 
@@ -37,7 +37,7 @@
     <main class="container">{% block principal %} {% endblock %}</main>
 
     <!-- sección pie de pagina  -->
-    <footer class="">{% include "shared/footer.html" %}</footer>
+    <footer class="text-white text-center p-3 mt-auto">{% include "shared/footer.html" %}</footer>
 
     <!-- sección js -->
     <!-- js de bootstrap -->

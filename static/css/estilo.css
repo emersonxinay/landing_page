@@ -1,3 +1,11 @@
 .navbar {
     background: linear-gradient(to right, #b128d3, rgb(233, 8, 8)); /* Degradado para el navbar */
   }
+footer{
+  
+    background: linear-gradient(to right, #b128d3, rgb(233, 8, 8)); /* Degradado para el navbar */
+  
+}
+#modal-title1{
+    font-size: 40px;
+  }
