@@ -32,12 +32,12 @@
   <body class="min-vh-100 d-flex flex-column">
     <!-- seccion navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">{% include "shared/nav.html" %}</nav>
-    <header class="masthead"> {% block header %}{% endblock  %} </header>
+    <header class="masthead container-fluid "> {% block header %}{% endblock  %} </header>
     <!-- sección principal  -->
-    <main class="container">{% block principal %} {% endblock %}</main>
+    <main class="container container-fluid ">{% block principal %} {% endblock %}</main>
 
     <!-- sección pie de pagina  -->
-    <footer class="text-white text-center p-3 mt-auto">{% include "shared/footer.html" %}</footer>
+    <footer class="text-white  container-fluid text-center p-3 mt-auto">{% include "shared/footer.html" %}</footer>
 
     <!-- sección js -->
     <!-- js de bootstrap -->
